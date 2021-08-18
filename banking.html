@@ -20,15 +20,18 @@
             <div class="grid grid-cols-3 gap-4">
                 <div class="bg-blue-400 p-8 rounded text-white ">
                     <h3 class="text-2xl">Deposit</h3>
-                    <h4 id='deposit_box' class="text-4xl">$00</h4>
+                    <h4 class="text-4xl">$
+                        <span id='deposit_box'>00</span>
+                    </h4>
                 </div>
                 <div class="bg-green-400 p-8 rounded text-white">
                     <h3 class="text-2xl">Withdraw</h3>
-                    <h4 id='withdraw_box'class="text-4xl">$00</h4>
+                    <h4 class="text-4xl">$ <span id='withdraw_box'>00</span> </h4>
                 </div>
                 <div class="bg-purple-400 p-8 rounded text-white ">
                     <h3 class="text-2xl">Balance</h3>
-                    <h4 id='balance_box'class="text-4xl">$1240</h4>
+                    <h4 class="text-4xl">$ <span id='balance_box'>1240</span>
+                    </h4>
                 </div>
 
             </div>
@@ -40,7 +43,7 @@
                     <h3 class="text-2xl my-5">Please Deposit</h3>
                     <div>
                         <input class="border-2 border-gray-300  w-2/3 h-10 px-5 rounded block" type="text" name=""
-                            id="deposit_ammount" placeholder="$ Ammount">
+                            id="deposit_input" placeholder="$ Ammount">
                         <button id='deposit_btn'
                             class="bg-yellow-600 mt-2 px-4 py-2 text-white  font-medium text-2xl rounded">Deposit</button>
                     </div>
@@ -49,16 +52,16 @@
                     <h3 class="text-2xl my-5">Please Withdraw</h3>
                     <div>
                         <input class="border-2 border-gray-300  w-2/3 h-10 px-5 rounded block" type="text" name=""
-                            id="withdraw_ammount" placeholder="$ Ammount">
+                            id="withdraw_input" placeholder="$ Ammount">
                         <button id='withdraw_btn'
                             class="bg-yellow-600 mt-2 px-4 py-2 text-white  font-medium text-2xl rounded">Withdraw</button>
                     </div>
                 </div>
-                
+
             </div>
         </section>
     </main>
-    <script src="./script/bank.js"></script>
+    <script src="./script/bank_functional.js"></script>
 </body>
 
 </html>
